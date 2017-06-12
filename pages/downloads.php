@@ -1,5 +1,4 @@
-<?php $title = __("Downloads");
-require(__DIR__.'/lib/common.php'); ?>
+<?php $title = __("Downloads"); ?>
 <style>
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
@@ -36,5 +35,5 @@ function myFunction() {
   }
 }
 </script>
-
+ <?php RenderTemplate('downloads'); ?>
 
